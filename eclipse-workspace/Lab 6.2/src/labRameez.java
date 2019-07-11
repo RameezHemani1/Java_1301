@@ -12,8 +12,8 @@ public class labRameez {
 		System.out.println();
 		System.out.println(last);
 	}
-	
-	
+
+
 	private static int lastDigit(int i) {
 		int j=(i%10);
 		return j;
@@ -22,7 +22,7 @@ public class labRameez {
 
 	public static void printString(String A, int B) {
 		for(int i = 1; i<=B; i++){
-			System.out.print(A + " ");
+			System.out.print(A + " hello ");
 		}
 		System.out.println();
 	}
@@ -33,5 +33,5 @@ public class labRameez {
 		int s=(Math.min(a, Math.min(b, c)));
 		return s;
 	}
-	
+
 }
