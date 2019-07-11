@@ -1,0 +1,25 @@
+package homeworkthree;
+
+import java.util.Scanner;
+
+// Rameez Hemani this is homework three question3.
+
+public class part2 {
+
+	public static void main(String[] args) {
+		
+	Scanner in = new Scanner(System.in);
+	
+	System.out.print("Enter a radius: ");
+	int circle= in.nextInt();
+	
+	
+	double radius = circle;
+	double area = Math.PI*radius*radius;
+	System.out.println("area: " + area);
+	
+	
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package lab8;
+
+// Lab 8. Rameez Hemani
+import java.util.*; 
+
+
+
+
+public class Lab8 {
+
+	public static void main(String[] args) {
+	
+	Scanner console = new Scanner(System.in);
+	
+	System.out.println("Enter three numbers: ");
+	
+	int first= console.nextInt();
+	int second= console.nextInt();
+	int third= console.nextInt();
+	evenorOdd();
+	}
+
+	public static void evenorOdd(int first, int second, int third) {
+		if (first % 2 == 0) {
+			System.out.println("First number is even");
+		}
+		else {
+			System.out.println("First number is odd");
+		}
+			
+	}
+
+}

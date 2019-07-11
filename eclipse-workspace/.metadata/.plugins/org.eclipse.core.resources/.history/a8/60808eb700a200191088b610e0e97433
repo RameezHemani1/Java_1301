@@ -1,0 +1,26 @@
+//Rameez Hemani. This is homework 3
+import java.util.*;
+public class practiceHemani {
+
+	public static void main(String[] args) {
+	
+	printGrid(3,5);
+	}
+
+	public static void printGrid(int row, int column)
+    {
+        for (int i = 1; i <= row; i++)
+        {
+ 
+            for (int j = i; j <= row * column; j += 4)
+            {
+                System.out.print(j+" ");
+            }
+            System.out.println();
+ 
+        }
+ 
+    }
+
+
+}

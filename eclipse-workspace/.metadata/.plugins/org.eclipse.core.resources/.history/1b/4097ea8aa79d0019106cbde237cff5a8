@@ -1,0 +1,18 @@
+// Lab 6.2. My name is Rameez Hemani
+public class labRameez {
+
+	public static void main(String[] args) {
+		printString("fun",5);
+		System.out.println();
+		padString("Rameez  ", 8);
+	}
+	public static void printString(String A, int B) {
+		for(int i = 1; i<=B; i++){
+			System.out.print(A + " ");
+		}
+		System.out.println();
+	}
+	public static void padString(String A, int length) {
+		System.out.println("\"" + A.subSequence(0, length)+"\"");
+	}
+}

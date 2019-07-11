@@ -1,0 +1,28 @@
+// Rameez Hemani, and this is lab 7
+import java.util.*;
+public class lab7 {
+
+	
+
+
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Birth day: ");
+		int day = in.nextInt();
+		
+		System.out.print("Birth month: ");
+		String month = in.next();
+		
+		System.out.print("Birth year: ");
+		int year = in.nextInt();
+		
+		System.out.println("You were born on "+ month + day + "," + year + "!!" );
+	    }
+		
+		
+		
+	}	
+		
+

@@ -1,0 +1,37 @@
+// Lab 6.2. My name is Rameez Hemani
+public class labRameez {
+
+	public static void main(String[] args) {
+		printString("fun",5);
+		System.out.println();
+		padString("Rameez  ", 8);
+		int small=min(1,2,3);
+		System.out.println();
+		System.out.println(small);
+		int last= lastDigit(1234);
+		System.out.println();
+		System.out.println(last);
+	}
+	
+	
+	private static int lastDigit(int a) {
+		
+		return 0;
+	}
+
+
+	public static void printString(String A, int B) {
+		for(int i = 1; i<=B; i++){
+			System.out.print(A + " ");
+		}
+		System.out.println();
+	}
+	public static void padString(String A, int length) {
+		System.out.println("\"" + A.subSequence(0, length)+"\"");
+	}
+	public static int min(int a, int b, int c) {
+		int s=(Math.min(a, Math.min(b, c)));
+		return s;
+	}
+	
+}

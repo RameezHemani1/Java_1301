@@ -1,0 +1,16 @@
+//Rameez Hemani. This is homework 3
+import java.util.*;
+public class practiceHemani {
+
+	public static void main(String[] args) {
+	
+	printGrid(3,4);
+	}
+
+	private static void printGrid(int rows, int columns) {
+		System.out.println(rows);
+		}
+		
+	}
+
+

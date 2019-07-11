@@ -1,0 +1,23 @@
+// Rameez Hemani, and this is lab 7
+import java.util.*;
+public class lab7 {
+
+	private static Scanner console;
+
+	public static void main(String[] args) {
+		console = new Scanner(System.in);
+		
+		System.out.print("What is your name? ");
+		String name= console.nextLine();
+		
+		for (int i=1; i<=20; i++) { 
+			System.out.println(name + " you are awesome");
+		
+		
+		}
+		
+		
+		
+		
+	}
+}

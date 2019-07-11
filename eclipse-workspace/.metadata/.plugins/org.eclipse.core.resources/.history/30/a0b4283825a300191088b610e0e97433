@@ -1,0 +1,52 @@
+package lab8;
+
+// Lab 8. Rameez Hemani
+import java.util.*; 
+
+
+
+
+public class Lab8 {
+
+	public static void main(String[] args) {
+	
+	Scanner console = new Scanner(System.in);
+	
+	System.out.println("Enter three numbers: ");
+	
+	int first= console.nextInt();
+	int second= console.nextInt();
+	int third= console.nextInt();
+	evenorOdd(first,second,third);
+	
+	System.out.println(median(first,second,third)); 
+	}
+
+
+	public static void evenorOdd(int first, int second, int third) {
+		if (first % 2 == 0) {
+			System.out.println("First number is even");
+		}
+		else {
+			System.out.println("First number is odd");
+		}
+		if (second % 2 == 0) {
+			System.out.println("First number is even");
+		}
+		else {
+			System.out.println("First number is odd");
+		}
+		if (third % 2 == 0) {
+			System.out.println("First number is even");
+		}
+		else {
+			System.out.println("First number is odd");
+		}
+	}		
+	
+	public static double median(int first, int second, int third) {
+		
+		return (first+second+third)/3.0;
+
+	}
+}	 

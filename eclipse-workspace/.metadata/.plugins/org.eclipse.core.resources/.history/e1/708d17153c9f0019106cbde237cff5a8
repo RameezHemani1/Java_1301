@@ -1,0 +1,32 @@
+// Rameez Hemani, and this is lab 7
+import java.util.*;
+public class lab7 {
+
+	private static Scanner in;
+	private static int start;
+	private static int end;
+
+
+
+	public static void main(String[] args) {
+		in = new Scanner(System.in);
+		
+		System.out.print("Enter a starting point: ");
+		start = in.nextInt();
+		
+		System.out.print("Enter an ending point: ");
+		end = in.nextInt();
+		
+		System.out.print("Enter the number to print: ");
+	    int print = in.nextInt(); 
+	    
+	    System.out.println("The numbers are:");
+	    for(int i= start; i<= end; i++) {
+	    	System.out.println(print);
+	    }
+		}
+		
+		
+		
+		
+	}

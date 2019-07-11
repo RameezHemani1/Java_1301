@@ -1,0 +1,18 @@
+// Rameez Hemani, and this is lab 7
+import java.util.*;
+public class lab7 {
+
+//	private static Scanner console;
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Enter a starting point: ");
+		int start = in.nextInt();
+		System.out.print("The numbers are: " + start);
+		}
+		
+		
+		
+		
+	}
